@@ -1,0 +1,49 @@
+
+.inputContainer{
+    border: 1px solid black;
+    width: 30vw;
+    padding: 1vw 0px;
+    border-radius:10px;
+    background-color: white;
+    position: relative;
+}
+
+.inputContainer input{
+    background-color: rgb(232, 232, 232);
+    border: none;
+    outline: none;
+}
+.inputContainer input[type='text']{
+    margin: 2px;
+    width: 90%;
+    padding: 10px 0px;
+
+}
+.inputContainer input[type='date']{
+    align-self: flex-end;
+    text-align: center;
+    margin: auto;
+    /* display: none; */
+}
+form{
+    display: flex;
+}
+.addBtn{
+     margin-left: 5px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: palevioletred;
+     color: white;
+     font-weight: bolder;
+     border: none;
+     cursor: pointer;
+
+    }
+    .Icon{
+        font-size: 30px;
+        color: palevioletred;
+        position: absolute;
+        right: 5px; 
+        top: 10px;
+        cursor: pointer;
+    }

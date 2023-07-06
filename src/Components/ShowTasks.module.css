@@ -1,0 +1,41 @@
+
+.tasks{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 70%;
+    width: 90%;
+    margin-top: 2vh;
+}
+.Task{
+    height: 100px;
+    background-color: palevioletred;
+    color:white;
+    padding: 5px;
+    width:90%;
+    margin:3px;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.Task p{
+    width: 50%;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Done{
+    color: green;
+    text-decoration: line-through;
+}
+.NotDone{
+    color: red;
+}
